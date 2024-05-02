@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "bootstrap/dist/css/bootstrap.css";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="text-center">
+			<header>
+				<div className="mt-5"></div>
+				<h1 className="fs-1">Iberdrola S.A.</h1>
+				<hr className="m-4" />
+				<p className="fs-6">
+					Iberdrola, S.A. es una empresa multinacional española del sector
+					eléctrico, con presencia en más de 100 países. Es una de las mayores
+					empresas del mundo por capitalización bursátil y la mayor por
+					producción de energía renovable. En este análisis exhaustivo, se
+					detallarán las cuentas anuales 2023 de la empresa, profundizando en
+					cada uno de sus aspectos y proporcionando información adicional
+					relevante.
+				</p>
+				<hr className="m-4" />
+			</header>
+		</div>
+	);
 }
 
 export default App;
