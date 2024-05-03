@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import AlertBtn from "./alert";
 
 class Informs extends Component {
 	state = {};
@@ -8,7 +9,8 @@ class Informs extends Component {
 			<>
 				<hr className="m-4" />
 				<h2 className="text-center" id="informs">
-					Informes
+					Informes <br />
+					<AlertBtn />
 				</h2>
 				<hr className="m-4" />
 				<p className="text-center">

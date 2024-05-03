@@ -9,13 +9,22 @@ html {
 	color: white;
 }
 
-#nb-li {
+#nb-li,
+#basic-nav-dropdown {
 	color: white;
 }
 
-@media (max-width: 550px) {
-	#nb-li {
+.drop-menu {
+	display: none;
+}
+
+@media (max-width: 420px) {
+	#nb-li,
+	#basic-nav-dropdown {
 		display: none;
+	}
+	.drop-menu {
+		display: block;
 	}
 }
 

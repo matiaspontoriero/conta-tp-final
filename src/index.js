@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import Navbar from "./components/navbar";
+import NavBar from "./components/navbar";
 import "bootstrap/dist/css/bootstrap.css";
 import BalanceSheet from "./components/balance-sheet";
 import PyG from "./components/PyG";
@@ -14,7 +14,7 @@ import Carr from "./components/carousel";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<React.StrictMode>
-		<Navbar />
+		<NavBar />
 		<div className="container" id="home">
 			<App />
 			<Carr />
