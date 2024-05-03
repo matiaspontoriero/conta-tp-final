@@ -2,10 +2,10 @@ import "bootstrap/dist/css/bootstrap.css";
 
 function App() {
 	return (
-		<div className="text-center">
+		<div className="text-center mt-5">
 			<header>
-				<div className="mt-5"></div>
-				<h1 className="fs-1">Iberdrola S.A.</h1>
+				<div className="pt-1"></div>
+				<h1 className="fs-1 mt-5">Iberdrola S.A.</h1>
 				<hr className="m-4" />
 				<p className="fs-6">
 					Iberdrola, S.A. es una empresa multinacional española del sector

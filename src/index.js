@@ -9,6 +9,7 @@ import PyG from "./components/PyG";
 import Informs from "./components/informes";
 import "./App.css";
 import Link from "./components/link";
+import Carr from "./components/carousel";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -16,6 +17,7 @@ root.render(
 		<Navbar />
 		<div className="container" id="home">
 			<App />
+			<Carr />
 			<BalanceSheet />
 			<PyG />
 			<Informs />
