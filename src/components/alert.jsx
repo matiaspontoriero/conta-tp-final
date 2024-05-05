@@ -25,11 +25,11 @@ function AlertBtn() {
 				</Modal.Body>
 				<Modal.Footer>
 					<Button variant="secondary" onClick={handleClose}>
-						Close
+						Cerrar
 					</Button>
 					<a href="#link-button">
 						<Button variant="primary" onClick={handleClose}>
-							Go to Link
+							Ir al Link
 						</Button>
 					</a>
 				</Modal.Footer>

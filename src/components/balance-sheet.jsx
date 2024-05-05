@@ -30,30 +30,31 @@ class BalanceSheet extends Component {
 									</Dropdown.Toggle>
 									<Dropdown.Menu className="dropdown-menu dropdown-menu-custom">
 										<Dropdown.Item>
-											Inmovilizado material: Se desglosa por tipo de activo:
-											terrenos, edificios, instalaciones, plantas de generación,
-											redes de distribución y transporte, etc. (€105.102
-											millones). Se proporciona la edad útil estimada de cada
-											tipo de activo, ofreciendo una perspectiva de las
+											<b>Inmovilizado material:</b> Se desglosa por tipo de
+											activo: terrenos, edificios, instalaciones, plantas de
+											generación, redes de distribución y transporte, etc.
+											(€105.102 millones). Se proporciona la edad útil estimada
+											de cada tipo de activo, ofreciendo una perspectiva de las
 											inversiones a largo plazo. Se incluye el valor neto
 											contable de cada tipo de activo, mostrando su valor
 											residual.
 										</Dropdown.Item>
 										<Dropdown.Item>
-											Inmovilizado intangible: Se desglosa por tipo de activo:
-											concesiones, licencias, patentes, marcas comerciales, etc.
-											(€14.204 millones). Se indica la fecha de vencimiento o
-											amortización de cada activo intangible, proporcionando
-											información sobre la duración de su valor. Se muestra el
-											importe amortizado de cada activo intangible, reflejando
-											la porción del costo ya reconocido como gasto.
+											<b>Inmovilizado intangible:</b> Se desglosa por tipo de
+											activo: concesiones, licencias, patentes, marcas
+											comerciales, etc. (€14.204 millones). Se indica la fecha
+											de vencimiento o amortización de cada activo intangible,
+											proporcionando información sobre la duración de su valor.
+											Se muestra el importe amortizado de cada activo
+											intangible, reflejando la porción del costo ya reconocido
+											como gasto.
 										</Dropdown.Item>
 										<Dropdown.Item>
-											Activos financieros no corrientes: Se desglosa por tipo de
-											inversión: inversiones en empresas asociadas, filiales y
-											otros activos financieros. (€11.300 millones). Se indica
-											el valor inicial de cada inversión, permitiendo comparar
-											su evolución. Se muestra el valor actual de cada
+											<b>Activos financieros no corrientes:</b> Se desglosa por
+											tipo de inversión: inversiones en empresas asociadas,
+											filiales y otros activos financieros. (€11.300 millones).
+											Se indica el valor inicial de cada inversión, permitiendo
+											comparar su evolución. Se muestra el valor actual de cada
 											inversión, reflejando su valor en el mercado al cierre del
 											ejercicio.
 										</Dropdown.Item>
