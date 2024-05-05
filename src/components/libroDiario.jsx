@@ -3,7 +3,6 @@ import { Table } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
 
 const journalData = [
-	// Replace with your actual journal entries
 	{
 		fecha: new Date("2023-01-01"),
 		asiento: 1,

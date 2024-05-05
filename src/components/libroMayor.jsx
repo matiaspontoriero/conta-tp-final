@@ -3,7 +3,6 @@ import { Table } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
 
 const generalLedgerData = [
-	// Replace with your actual general ledger data
 	{
 		cuenta: "Activos no corrientes",
 		saldoInicial: 100000,
