@@ -10,12 +10,14 @@ import Informs from "./components/informes";
 import "./App.css";
 import Link from "./components/link";
 import Carr from "./components/carousel";
+import Background from "./components/bg";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<React.StrictMode>
 		<NavBar />
 		<div className="container" id="home">
+			<Background />
 			<App />
 			<Carr />
 			<BalanceSheet />
