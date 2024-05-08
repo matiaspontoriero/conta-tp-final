@@ -17,7 +17,8 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<React.StrictMode>
 		<NavBar />
-		<div className="container" id="home">
+		{/* <Background className="z-1" /> */}
+		<div className="container z-2" id="home">
 			<App />
 			<Carr />
 			<BalanceSheet />
@@ -25,7 +26,6 @@ root.render(
 			<Informs />
 			<Link />
 		</div>
-		{/* <Background /> */}
 		<Footer />
 	</React.StrictMode>
 );
